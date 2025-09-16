@@ -1,0 +1,134 @@
+:root {
+  /* Colors from design system */
+  --color-ffffff: #ffffff;
+  --color-3c2f2f: #3c2f2f;
+  --color-6a6a6a: #6a6a6a;
+  --color-d9d9d9: #d9d9d9;
+  --color-ef2a39: #ef2a39;
+  --color-f5f5f5: #f5f5f5;
+  --color-f3f4f6: #f3f4f6;
+  --color-000000: #000000;
+  --color-ff9633: #ff9633;
+
+  /* Border radius tokens */
+  --radius-20: 20px;
+  --radius-35: 35px;
+
+  /* Shadows from design system */
+  --shadow-0: 0px 4px 19px 0px rgba(0,0,0,1);
+  --shadow-1: 0px 10px 18px -1px rgba(0,0,0,1);
+  --shadow-2: 0px 6px 17px 0px rgba(0,0,0,1);
+  --shadow-3: 0px 5px 16px 5px rgba(0,0,0,1);
+
+  /* Typography sizes */
+  --typo-45: 45px;
+  --typo-18: 18px;
+  --typo-16: 16px;
+
+  /* Line heights */
+  --lh-60-609: 60.6093788147px;
+  --lh-27: 27px;
+  --lh-21-09375: 21.09375px;
+  --lh-19-363636: 19.3636360168px;
+  --lh-21-55: 21.5500011444px;
+
+  /* Frame size */
+  --frame-width: 430px;
+  --frame-height: 932px;
+}
+
+/* Font families defined in design system */
+:root {
+  --font-lobster: 'Lobster', cursive;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+/* Base resets for the screen frame scope only are handled by Home.module.css pageRoot */
+
+img { display: block; }
+
+.abs { position: absolute; }
+
+/* Typography helpers */
+.typo-5 {
+  font-family: var(--font-lobster);
+  font-size: var(--typo-45);
+  font-weight: 400;
+  line-height: var(--lh-60-609);
+  color: var(--color-3c2f2f);
+}
+.typo-6 {
+  font-family: var(--font-poppins);
+  font-size: var(--typo-18);
+  font-weight: 500;
+  line-height: var(--lh-27);
+  color: var(--color-6a6a6a);
+}
+.typo-7 {
+  font-family: var(--font-roboto);
+  font-size: var(--typo-18);
+  font-weight: 500;
+  line-height: var(--lh-21-09375);
+  color: var(--color-3c2f2f);
+}
+.typo-8 {
+  font-family: var(--font-inter);
+  font-size: var(--typo-16);
+  font-weight: 500;
+  line-height: var(--lh-19-363636);
+  color: var(--color-f5f5f5);
+}
+.typo-9 {
+  font-family: var(--font-inter);
+  font-size: var(--typo-16);
+  font-weight: 500;
+  line-height: var(--lh-19-363636);
+  color: var(--color-6a6a6a);
+}
+.typo-10 {
+  font-family: var(--font-inter);
+  font-size: var(--typo-16);
+  font-weight: 500;
+  line-height: var(--lh-19-363636);
+  color: var(--color-3c2f2f);
+}
+.typo-11 {
+  font-family: var(--font-roboto);
+  font-size: var(--typo-16);
+  font-weight: 500;
+  line-height: var(--lh-21-55);
+  color: var(--color-3c2f2f);
+}
+
+/* Frame container */
+.screen-frame {
+  position: relative;
+  width: var(--frame-width);
+  height: var(--frame-height);
+  background: var(--color-ffffff);
+  border-radius: var(--radius-35);
+  overflow: hidden;
+}
+
+/* Background helpers */
+.fill-3c2f2f { color: var(--color-3c2f2f); }
+.bg-3c2f2f { background-color: var(--color-3c2f2f); }
+.bg-6a6a6a { background-color: var(--color-6a6a6a); }
+.bg-d9d9d9 { background-color: var(--color-d9d9d9); }
+.bg-ef2a39 { background-color: var(--color-ef2a39); }
+.bg-f5f5f5 { background-color: var(--color-f5f5f5); }
+.bg-f3f4f6 { background-color: var(--color-f3f4f6); }
+.bg-000000 { background-color: var(--color-000000); }
+.bg-ffffff { background-color: var(--color-ffffff); }
+
+/* Rounding helpers */
+.radius-20 { border-radius: var(--radius-20); }
+.radius-35 { border-radius: var(--radius-35); }
+
+/* Shadows */
+.shadow-0 { box-shadow: var(--shadow-0); }
+.shadow-1 { box-shadow: var(--shadow-1); }
+.shadow-2 { box-shadow: var(--shadow-2); }
+.shadow-3 { box-shadow: var(--shadow-3); }

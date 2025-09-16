@@ -1,0 +1,8 @@
+Binary assets should be placed here:
+- figma_image_1_54.png
+- figma_image_1_83.png
+- figma_image_1_92.png
+- figma_image_1_101.png
+- figma_image_1_110.png
+
+These are referenced by src/components/Home/Home.jsx using relative imports.
